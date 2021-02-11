@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "star1t": "webpack --mode development --watch",
-    "start": "webpack serve --mode development --open --hot",
+    "start:dev": "webpack serve --mode development --hot",
     "build": "webpack --mode production"
   },
   "keywords": [],
